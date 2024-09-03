@@ -7,11 +7,13 @@ import time
 import pprint
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 timeout = 10
 FB_EMAIL= os.getenv("EMAIL")
 FB_PASSWORD = os.getenv("PASSWORD")
 #driver = webdriver.Chrome(ChromeDriverManager().install())
+
 driver = webdriver.Firefox()
 
 
