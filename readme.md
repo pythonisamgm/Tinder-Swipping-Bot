@@ -8,6 +8,7 @@ This project automates interactions on Tinder using Selenium. The bot can log in
 - Selenium (`pip install selenium`)
 - Firefox WebDriver (`geckodriver`)
 - WebDriver Manager for automatic driver installation (`pip install webdriver-manager`)
+- `geckodriver` (should be in `PATH`)
 
 ## Installation
 
